@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Rubik+Beastly&display=swap");
+
+body {
+  margin: 0;
+  font-family: annie use your telescope;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #f2f2f2;
+  width: 100%;
+  height: max-content;
+}
+.nav-bar .blog-name {
+  margin-left: 80px;
+  color: #6082b6;
+}
+.nav-bar .blog-name h2 {
+  font-family: rubik beastly;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.nav-bar ul {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-bar li {
+  font-size: x-large;
+  font-weight: 200;
+  list-style: none;
+  margin: 15px 15px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #848884;
+}
+
+.blog-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 60%;
+  padding: 20px;
+  margin: 15px 20px 0px 50px;
+  border-right: 2px solid #f2f2f2;
+}
+.blog-display .blog-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
+}
+.blog-display #title {
+  font-size: x-large;
+  font-weight: 300;
+  color: #6082b6;
+}
+
+.blog-display #author {
+  font-size: large;
+  font-weight: 200;
+  color: #6082b6;
+}
+
+.blog-display .blog-cover-photo {
+  width: 50%;
+  background-color: #b2beb5;
+}
+
+.blog-info #blog-body {
+  color: #848884;
+}
+
+.blog-display:hover {
+  /* border: 10px solid black; */
+  box-shadow: 0px 20px 10px -10px rgba(0, 0, 0, 0.1);
+}
